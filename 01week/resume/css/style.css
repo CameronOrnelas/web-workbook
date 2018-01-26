@@ -1,10 +1,10 @@
 body {
-  color: #363E42;
   font-family:georgia;
   padding-top: 40px;
   padding-right: 30px;
   padding-bottom: 40px;
   padding-left: 30px;
+  background-image: url(desktop-image.html);
 }
 div.container3 {text-align: center;}
 div.container3 {line-height: 2px;}
