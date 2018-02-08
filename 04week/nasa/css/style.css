@@ -1,0 +1,84 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.nasa{
+  margin: 0 auto;
+  width: 850px;
+  height: 450px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/nasa-background.jpg");
+}
+.content-box{
+  margin: 0 auto;
+  width: 850px;
+  height: 324px;
+  background-color: #d2d7d8;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+.social-media{
+  width: 270px;
+  height: 324px;
+  /* background-color: red; */
+
+}
+.office-info{
+  width: 270px;
+  height: 324px;
+  /* background-color: green; */
+
+}
+.contact-us{
+  width: 270px;
+  height: 324px;
+  /* background-color: yellow; */
+
+}
+
+.social-header{
+  margin: 20px;
+}
+
+.office-header{
+  margin: 20px;
+}
+
+.contact-header{
+  margin: 20px;
+}
+
+.accounts{
+  margin-left: -15px;
+}
+
+.address{
+  margin-left: -15px;
+}
+
+.forms{
+  margin-left: 20px;
+}
+
+li{
+  list-style-type: none;
+  font-size: 14px;
+  padding: 2px;
+}
+
+h1{
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+#NASA{
+  position: absolute;
+  color: white;
+  font-size: 50px;
+}
