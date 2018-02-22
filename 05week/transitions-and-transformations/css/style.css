@@ -1,1 +1,37 @@
 
+.container > div{
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  margin: 10px;
+}
+
+.container{
+  width: 10%;
+  margin: 0 auto;
+}
+
+div:nth-child(odd){
+  transform: scale(1) translate(0px) rotate(-180deg);
+  transition-duration: 3s;
+}
+
+div:nth-child(even){
+  transform: scale(1) translate(0px)rotate(180deg);
+  transition-duration: 1s;
+}
+
+.container:hover div:nth-child(odd){
+  transform: scale(2) translate(-200px) rotate(180deg);
+  transition-duration: 3s;
+  background-color: grey;
+  border-radius: 50%;
+}
+
+.container:hover div:nth-child(even){
+  transform: scale(.5) translate(800px)rotate(-180deg);
+  transition-duration: 2s;
+  background-color: lightblue;
+  opacity: .1;
+}
+
