@@ -1,0 +1,96 @@
+#nav{
+  background-color: #bcbfb3;
+}
+html{
+  font-family: 'Playfair Display', serif;
+}
+li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 20px;
+  font-size: 20px;
+}
+ul{
+  margin-left: 30%;
+}
+img{
+  height: 180px;
+  border-radius: 50%;
+  background-color: #97a8a7;
+  margin-left: 60px;
+
+}
+h1{
+  font-family: 'Vast Shadow', cursive;
+  margin-left: 25%;
+  text-transform: uppercase;
+}
+.container1{
+  float: left;
+  width: 180px;
+  height: 500px;
+  margin: 42px;
+  padding: 14px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.summary{
+  border: 2px solid black;
+  width: 180px;
+  height: 170px;
+  margin-left: -20px;
+  margin-top: -10px;
+  padding: 14px;
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 17px;
+}
+.UFC{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+.Bellator{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+table{
+  border-collapse: collapse;
+  width: 50%;
+}
+tr:nth-child(even){
+  background-color: #a1c4c1;
+}
+td{
+  text-align: center;
+  border: 1px solid black;
+}
+.time{
+  padding-top: 15px;
+  font-style: italic;
+}
+.description{
+  padding-top: 15px;
+  margin-right: 200px;
+}
+.description:hover{
+  text-transform: uppercase;
+  color: red;
+}
+
+.description2{
+  padding-top: 15px;
+  margin-right: 200px;
+}
+.description2:hover{
+  text-transform: uppercase;
+  color: red;
+}
+li:hover{
+  color: white;
+}
+p:first-child:hover{
+  color: red;
+  font-style: italic;
+}
