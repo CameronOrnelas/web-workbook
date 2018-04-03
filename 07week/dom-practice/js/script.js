@@ -2,20 +2,26 @@
 
 window.onload = function(){
 
-  var listCountMessage = setListMesage();
-  alert(listCountMessage)
+  // var listCountMessage = setListMesage();
+  // var listItems = document.getElementById('shopping-list').getElementsByTagName('li');
+  // alert('You have ' +listItems + ' items in your cart.');
+
+  // var inputBox = document.createElement('input');
+  //
+  // inputBox.setAttribute('Id','textBox');
 
   createListCountHeaderElement();
   createListItemElement();
   // createNewItemTextInput();
   removeListItemElement();
   updateListCountHeaderMessage();
+  setListMesage();
 }
 
 
 
 // this takes care of the 1st objective
-  function setListMesage(){
+  function setListMessage(){
     var list = document.getElementsByTagName('ul');
     var message = "You have "+list[0].children.length + "items in your shopping cart.";
     return message;
@@ -35,11 +41,11 @@ window.onload = function(){
     listItem.innerHTML = "New Item";
     list[0].appendChild(listItem);
     return listItem;
-}
+  }
 
   function removeListItemElement(){
     var list = document.getElementsByTagName("ul");
-    var listItem = document.getElementById("node");
+    var listItem = document.getElementsByTagName("li");
     list[0].removeChild(listItem);
     return list;
 }
